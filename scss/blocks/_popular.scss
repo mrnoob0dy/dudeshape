@@ -1,0 +1,18 @@
+.popular {
+  padding: 70px 0;
+}
+
+.popular__title {
+  margin-bottom: 20px;
+}
+
+.popular__description {
+  margin-bottom: 80px;
+  max-width: 820px;
+
+  p {
+    font-size: 20px;
+    line-height: 135%;
+    color: #383738;
+  }
+}

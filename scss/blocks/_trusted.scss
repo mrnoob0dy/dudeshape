@@ -1,0 +1,21 @@
+.trusted {
+  padding: 70px 0;
+}
+
+.trusted__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.trusted__title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #244d4d;
+  text-align: center;
+}
+
+.trusted__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

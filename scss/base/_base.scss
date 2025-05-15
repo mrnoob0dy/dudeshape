@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title-2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #242424;
+
+  &--green {
+    line-height: 125%;
+    color: #244d4d;
+  }
+}
