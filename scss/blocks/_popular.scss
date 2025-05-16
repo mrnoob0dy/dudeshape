@@ -1,5 +1,9 @@
 .popular {
   padding: 70px 0;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
 }
 
 .popular__title {
@@ -14,6 +18,14 @@
     font-size: 20px;
     line-height: 135%;
     color: #383738;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 40px;
   }
 }
 
@@ -21,11 +33,27 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 630px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .popular__item {
   box-shadow: 0 13px 26px 0 rgba(0, 0, 0, 0.07);
   background: #fff;
+}
+
+.popular__img {
+  @media (max-width: 767px) {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .popular__info {

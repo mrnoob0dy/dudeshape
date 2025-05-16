@@ -1,5 +1,9 @@
 .trusted {
   padding: 70px 0;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
 }
 
 .trusted__inner {
@@ -12,10 +16,20 @@
   font-size: 32px;
   color: #244d4d;
   text-align: center;
+
+  @media (max-width: 767px) {
+    font-size: 26px;
+  }
 }
 
 .trusted__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }

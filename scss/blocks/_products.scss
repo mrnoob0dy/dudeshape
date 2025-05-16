@@ -1,5 +1,9 @@
 .products {
   padding: 70px 0;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
 }
 
 .products__title {
@@ -12,6 +16,12 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 
 .products__tab {
@@ -60,6 +70,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 }
 
 .products__category {

@@ -16,6 +16,10 @@ body {
   padding: 0 15px;
 }
 
+.none {
+  display: none !important;
+}
+
 .title-2 {
   font-family: var(--second-family);
   font-weight: 700;
@@ -26,5 +30,9 @@ body {
   &--green {
     line-height: 125%;
     color: #244d4d;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 26px;
   }
 }

@@ -1,5 +1,9 @@
 .subscribe {
   padding: 70px 0 140px;
+
+  @media (max-width: 767px) {
+    padding: 40px 0 70px;
+  }
 }
 
 .subscribe__inner {
@@ -36,12 +40,22 @@
   justify-content: space-between;
   gap: 20px;
   background-color: #fff;
+
+  @media (max-width: 530px) {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 
 .subscribe__form-label {
   display: flex;
   align-items: center;
   gap: 12px;
+
+  @media (max-width: 530px) {
+    height: 42px;
+  }
 }
 
 .subscribe__form-input {
@@ -75,5 +89,11 @@
     color: #305f64;
     background-color: #fff;
     border-color: #305f64;
+  }
+
+  @media (max-width: 530px) {
+    height: 42px;
+    font-size: 14px;
+    padding: 0 18px;
   }
 }

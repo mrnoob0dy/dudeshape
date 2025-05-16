@@ -18,6 +18,11 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
+
+  @media (max-width: 1100px) {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
 }
 
 .footer__logo {
@@ -74,6 +79,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .footer__title {
